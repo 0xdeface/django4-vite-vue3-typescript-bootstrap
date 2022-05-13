@@ -1,4 +1,4 @@
-{% load django_vite %}
+{% load django_vite js_routes_tags %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,5 +15,8 @@
 
   <body>
     <h1>Django Vite Example !</h1>
+    {{ page|json_script:"page" }}
+  <div id="app"></div>
+  {% js_routes %}
   </body>
 </html>

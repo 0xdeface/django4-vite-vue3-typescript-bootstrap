@@ -39,6 +39,17 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-js-routes"
+version = "0.2.0"
+description = "Expose and perform reverse lookups of Django URLs in the frontend world."
+category = "main"
+optional = false
+python-versions = ">=3.6,<4.0"
+
+[package.dependencies]
+django = ">=3.2"
+
+[[package]]
 name = "django-vite"
 version = "2.0.0"
 description = "Integration of ViteJS in a Django project."
@@ -51,6 +62,17 @@ Django = ">=1.11"
 
 [package.extras]
 dev = ["black", "flake8"]
+
+[[package]]
+name = "inertia-django"
+version = "0.3.2"
+description = "inertia connector for django"
+category = "main"
+optional = false
+python-versions = ">=3.6.0"
+
+[package.dependencies]
+django = "*"
 
 [[package]]
 name = "sqlparse"
@@ -71,7 +93,7 @@ python-versions = ">=2"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "d741bbabfa0e8295cdaa5886bd628f01425bc465a67267a5907b4f731da32efb"
+content-hash = "5730cbf3acdd71b97d4d633ffa0a57c0b369a69b709f68f28526386d831cf274"
 
 [metadata.files]
 asgiref = [
@@ -100,9 +122,17 @@ django = [
     {file = "Django-4.0.3-py3-none-any.whl", hash = "sha256:1239218849e922033a35d2a2f777cb8bee18bd725416744074f455f34ff50d0c"},
     {file = "Django-4.0.3.tar.gz", hash = "sha256:77ff2e7050e3324c9b67e29b6707754566f58514112a9ac73310f60cd5261930"},
 ]
+django-js-routes = [
+    {file = "django-js-routes-0.2.0.tar.gz", hash = "sha256:67f4fbd6d45cf0c0c5adae5e45e6de2aa4a7e2505e073cb5550ce2503ea986aa"},
+    {file = "django_js_routes-0.2.0-py3-none-any.whl", hash = "sha256:9adc2f5e1874d238ec3004dbde3cd0220bcef56669a607847502f1f34c2ddccd"},
+]
 django-vite = [
     {file = "django-vite-2.0.0.tar.gz", hash = "sha256:af4be070e9648039382c3cf63244ac1b1648eae2c1ac2c95a6f08bba63c3e803"},
     {file = "django_vite-2.0.0-py3-none-any.whl", hash = "sha256:ea72b7fbae3949eac45428302e5a4584da277be1d6c5452eac4c9238fa6a1a77"},
+]
+inertia-django = [
+    {file = "inertia-django-0.3.2.tar.gz", hash = "sha256:50eeca3d18a025b9686758f6de2aaeaca5bcc72dc23b34bd80dc6ed26f88a210"},
+    {file = "inertia_django-0.3.2-py2.py3-none-any.whl", hash = "sha256:35b0a66fc60b44b0b021d4ce696f706ee69ad4018b94c19b342efbdf8333e8ee"},
 ]
 sqlparse = [
     {file = "sqlparse-0.4.1-py3-none-any.whl", hash = "sha256:017cde379adbd6a1f15a61873f43e8274179378e95ef3fede90b5aa64d304ed0"},

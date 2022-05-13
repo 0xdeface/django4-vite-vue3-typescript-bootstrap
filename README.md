@@ -1,9 +1,5 @@
-# Django Vite Example
+# Bootstrap Django 4, vue 3 ts, vite, django-js-route 
 
-Example of using [Django Vite](https://github.com/MrBin99/django-vite) module into a basic Django project.
+*Please make pull request for new version or deeply integration*  
 
-# Advice
-
-- This is a really basic example to help people figure out how to setup the module.
-- Don't use this project as is.
-- Use it as an helper to begin with and build your configuration upon it.
+NOTE: run django server and `vite` from project root
