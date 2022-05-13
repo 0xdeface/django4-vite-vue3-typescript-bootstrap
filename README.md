@@ -16,7 +16,7 @@ def index(request):
     )
 ```
 
-## you can use you routes insive js with django-js-route
+## you can use you routes inside js with django-js-route
 ```js
 const link = (<any>window).reverseUrl('catalog')
 ```
