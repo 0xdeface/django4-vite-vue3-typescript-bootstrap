@@ -4,7 +4,7 @@
 
 NOTE: run django server and `vite` from project root
 
-## packed with interia
+## packed with inertia
 
 ```
 def index(request):
